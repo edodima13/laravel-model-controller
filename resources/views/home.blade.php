@@ -8,5 +8,13 @@
 </head>
 <body>
     <h1>Ecco la lista dei film</h1>
+
+    <div>
+
+        @foreach ($movies as $movie)
+            {{$movie}}
+        @endforeach
+
+    </div>
 </body>
 </html>
