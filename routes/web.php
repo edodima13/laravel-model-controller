@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//inserire il nome controller - @ - il nome del metodo utilizzato!
+
+Route::get('/', 'MovieController@index')->name('home');
